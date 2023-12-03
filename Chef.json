@@ -1,0 +1,27 @@
+{
+  "D007": {
+    "Name": "Bond",
+    "Surname": "Dani",
+    "mdp": "DaniBond"
+  },
+  "G021": {
+    "Name": "Thumberg",
+    "Surname": "Greta",
+    "mdp": "GretaRulez"
+  },
+  "H042": {
+    "Name": "Hendrikx",
+    "Surname": "Nicolas",
+    "mdp": "H2G2"
+  },
+  "F004": {
+    "Name": "Muller",
+    "Surname": "Gerard",
+    "mdp": "OktoberFest"
+  },
+  "S010": {
+    "Name": "Lamy",
+    "Surname": "Simon",
+    "mdp": "HELMo"
+  }
+}

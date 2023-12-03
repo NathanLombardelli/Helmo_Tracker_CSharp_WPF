@@ -1,0 +1,22 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+			 Background="Wheat"
+             x:Class="Lombardelli.Nathan.Poo.Tracker.RetardView">
+	<StackPanel Margin="4" Height="50" Width="750" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+		
+
+		<TextBlock Name="ChantierTB" FontSize="20" Width="500" Margin="5,0,0,0" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center"> Chantier </TextBlock>
+
+		
+		<TextBlock  HorizontalAlignment="Right" VerticalAlignment="Center" Margin="135,0,0,0"> Retard : </TextBlock>
+		<TextBlock Name="RetardChantierTB" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,0,0"> Retard</TextBlock>
+		<TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Margin="2,0,0,0"> J</TextBlock>
+
+	</StackPanel>
+	
+</UserControl>
+
+

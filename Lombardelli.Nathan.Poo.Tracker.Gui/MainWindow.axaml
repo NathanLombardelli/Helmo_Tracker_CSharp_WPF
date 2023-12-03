@@ -1,0 +1,137 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:ScottPlot="clr-namespace:ScottPlot.Avalonia;assembly=ScottPlot.Avalonia"
+		mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="800"
+		Background="white"
+        x:Class="Lombardelli.Nathan.Poo.Tracker.MainWindow"
+        Title="Lombardelli.Nathan.Poo.Tracker" Width="800" Height="800"> 
+	
+	<TabControl>
+		<TabItem Header="Taches">
+		<StackPanel Spacing="8" Margin="8" Orientation="Vertical">
+			<StackPanel Spacing="8" Margin="8" HorizontalAlignment="Center" Orientation="Horizontal">
+				<TextBlock HorizontalAlignment="Center">
+					Visualisation des T&#x00e2;ches de
+				</TextBlock>
+				<TextBlock HorizontalAlignment="Center" Name="UserTB"/>
+			</StackPanel>
+		
+			<ListBox Name="ListTaches" Height="350" Background="LightGray">
+			</ListBox>
+
+			<Expander Header="Trier/Filtrer les T&#x00e2;ches">
+				<StackPanel HorizontalAlignment="Center">
+					<Grid Width="700">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="200" />
+							<ColumnDefinition Width="*" />
+							<ColumnDefinition Width="200" />
+						</Grid.ColumnDefinitions>
+
+						<StackPanel Grid.Column="0"  HorizontalAlignment="Center">
+							<TextBlock >
+								Triez par
+							</TextBlock>
+							<ComboBox Width="150" Name="TrisCB"></ComboBox>
+						</StackPanel>
+
+						<StackPanel  Grid.Column="1" HorizontalAlignment="Center">
+							<TextBlock >
+								Filtrez par
+							</TextBlock>
+							<ComboBox Width="150" Name="FiltreCB"></ComboBox>
+						</StackPanel>
+					
+						<StackPanel  Grid.Column="2" HorizontalAlignment="Center">
+							<TextBlock >
+								Valeur de Filtre
+							</TextBlock>
+							<TextBox Width="150" Name="ValFiltreTB"></TextBox>
+						</StackPanel>
+					
+					</Grid>
+					<Button HorizontalAlignment="Center" Margin="0,10,0,0" Click="Filtrer_Click">Filtrer</Button>
+				</StackPanel>
+
+			</Expander>
+
+			<TextBlock>
+				Commentaires : 
+			</TextBlock>
+		
+			<ListBox Height="150" Name="ListCommentaires"/>
+
+			<TextBlock>
+				Commenter :
+			</TextBlock>
+			<StackPanel Orientation="Horizontal">
+			<TextBox Width="400" Height="70" HorizontalAlignment="Left" Name="Commentaire"></TextBox>
+				<Button Margin="100,0,0,0" Click="Publier_Click">Publier</Button>
+			</StackPanel>
+		</StackPanel>
+		</TabItem>
+		
+		
+		
+		<TabItem Header="Graphics">
+			<StackPanel>
+				
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="75"></RowDefinition>
+						<RowDefinition Height="40"></RowDefinition>
+						<RowDefinition Height="500"></RowDefinition>
+					</Grid.RowDefinitions>
+					
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="325" />
+						<ColumnDefinition Width="325" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+				
+					<StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="0">
+						<Label>Debut</Label>
+						<DatePicker Name="DebutDP"></DatePicker>
+					</StackPanel>
+				
+					<StackPanel Orientation="Vertical" Grid.Column="1" Grid.Row="0">
+						<Label>Fin</Label>
+						<DatePicker Name="FinDP"></DatePicker>
+					</StackPanel>
+
+					<StackPanel Orientation="Vertical" Grid.Column="2" Grid.Row="0">
+						<Label>Resolution</Label>
+						<ComboBox Name="ResolutionCB"></ComboBox>
+					</StackPanel>
+
+					<Button Click="Refresh_Click" Height="30" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" Margin="0,10,0,10">Refresh</Button>
+
+
+					<ScottPlot:AvaPlot Name="AvaPlot1" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3"/>
+					
+					
+				</Grid>
+
+
+			</StackPanel>
+		</TabItem>
+
+		
+		
+		<TabItem Header="Retard">
+			<StackPanel>
+				<ListBox Height="600" Name="ListRetard"/>
+				<StackPanel Orientation="Horizontal" Margin="0,50,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+					<TextBlock FontSize="20" >Total : </TextBlock>
+					<TextBlock FontSize="20" Name="TotalL" Margin="5,0,0,0"> total value </TextBlock>
+					<TextBlock FontSize="20" Margin="5,0,0,0"> jours </TextBlock>
+				</StackPanel>
+			</StackPanel>
+		</TabItem>
+		
+		
+		
+	</TabControl>
+</Window>

@@ -1,0 +1,5 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\Ghost\AppData\Local\Temp\JetBrains\ReSharperPlatformVs16\vAny_287b3643\CoverageData\_Lombardelli.Nathan.Poo.Tracker.445515891\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=79ef305e_002D67f2_002D4bb5_002Daafa_002D9748dcc10a10/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;Lombardelli.Nathan.Poo.Tracker.Test&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\Ghost\Documents\UE11 - Poo C#\Projet\Lombardelli.Nathan.Poo.Tracker\Lombardelli.Nathan.Poo.Tracker.Test" Presentation="&amp;lt;Lombardelli.Nathan.Poo.Tracker.Test&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

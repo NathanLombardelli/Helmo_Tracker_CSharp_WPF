@@ -1,0 +1,51 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        d:DesignWidth="400" d:DesignHeight="225"
+		Background="#44A6CC"
+
+        Width="400" Height="220"
+        x:Class="Lombardelli.Nathan.Poo.Tracker.ConnectionWindow" >
+	<StackPanel Spacing="8" Margin="8">
+		<TextBlock HorizontalAlignment="Center" Margin="0,0,0,5" Foreground="White">
+			User
+		</TextBlock>
+		
+		<TextBox Margin="0,0,0,10" Name="UserTB" />
+		
+		<TextBlock HorizontalAlignment="Center" Margin="0,0,0,5" Foreground="White">
+			Password
+		</TextBlock>
+		
+		<TextBox Margin="0,0,0,10" Name="PasswordTB" PasswordChar="*" BorderBrush="Black"/>
+		
+		<Grid>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="128" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="128" />
+			</Grid.ColumnDefinitions>
+			<Button Grid.Column="0" Width="128"
+					Click="Quit_Click"
+                    Content="Quit"
+                    Background="#3557DD"
+                    Foreground="White"
+                    HorizontalContentAlignment="Center"
+					BorderBrush="Black"
+                    />
+
+			<Button Grid.Column="2"  Width="128"
+					Click="Connection_Click"
+                    Content="Connection"
+                    Background="#4B87E5"
+                    Foreground="White"
+                    HorizontalContentAlignment="Center"
+					BorderBrush="Black"
+					/>
+		</Grid>
+		<TextBlock Name="ErrorMessageTB" HorizontalAlignment="Center" Foreground="red" IsVisible="False">User or Password Incorrect</TextBlock>
+	</StackPanel>
+</Window>
+

@@ -1,0 +1,286 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Test\\Lombardelli.Nathan.Poo.Tracker.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\File\\File.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\File\\File.csproj",
+        "projectName": "File",
+        "projectPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\File\\File.csproj",
+        "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\File\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Domain\\Lombardelli.Nathan.Poo.Tracker.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Domain\\Lombardelli.Nathan.Poo.Tracker.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Domain\\Lombardelli.Nathan.Poo.Tracker.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Domain\\Lombardelli.Nathan.Poo.Tracker.Domain.csproj",
+        "projectName": "Lombardelli.Nathan.Poo.Tracker.Domain",
+        "projectPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Domain\\Lombardelli.Nathan.Poo.Tracker.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Presentation\\Lombardelli.Nathan.Poo.Tracker.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Presentation\\Lombardelli.Nathan.Poo.Tracker.Presentation.csproj",
+        "projectName": "Lombardelli.Nathan.Poo.Tracker.Presentation",
+        "projectPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Presentation\\Lombardelli.Nathan.Poo.Tracker.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\File\\File.csproj": {
+                "projectPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\File\\File.csproj"
+              },
+              "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Domain\\Lombardelli.Nathan.Poo.Tracker.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Domain\\Lombardelli.Nathan.Poo.Tracker.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Test\\Lombardelli.Nathan.Poo.Tracker.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Test\\Lombardelli.Nathan.Poo.Tracker.Test.csproj",
+        "projectName": "Lombardelli.Nathan.Poo.Tracker.Test",
+        "projectPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Test\\Lombardelli.Nathan.Poo.Tracker.Test.csproj",
+        "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Domain\\Lombardelli.Nathan.Poo.Tracker.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Domain\\Lombardelli.Nathan.Poo.Tracker.Domain.csproj"
+              },
+              "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Presentation\\Lombardelli.Nathan.Poo.Tracker.Presentation.csproj": {
+                "projectPath": "C:\\Users\\Ghost\\Documents\\UE11 - Poo C#\\Projet\\Lombardelli.Nathan.Poo.Tracker\\Lombardelli.Nathan.Poo.Tracker.Presentation\\Lombardelli.Nathan.Poo.Tracker.Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
